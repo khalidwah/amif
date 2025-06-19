@@ -1,0 +1,64 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 1em;
+}
+.container {
+  margin: 2em auto;
+  max-width: 600px;
+  background: #fff;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.hidden {
+  display: none;
+}
+input, select, button, textarea {
+  padding: 0.8em;
+  width: 100%;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1em;
+  margin-top: 1em;
+}
+.card {
+  background: #e6f0fa;
+  padding: 1em;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.card:hover {
+  background: #d0e7fb;
+}
+.chat-box {
+  border: 1px solid #ccc;
+  padding: 1em;
+  max-height: 200px;
+  overflow-y: auto;
+  text-align: left;
+  background: #fff;
+  margin-bottom: 1em;
+}
+.chat-input {
+  display: flex;
+  gap: 0.5em;
+}
+.chat-input input {
+  flex: 1;
+}
